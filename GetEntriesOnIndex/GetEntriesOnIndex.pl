@@ -14,9 +14,7 @@ my $plugin = __PACKAGE__->new({
     author_name => 'Hideki Abe',
     author_link => 'http://www.skyward-design.net',
     doc_link => 'http://www.skyward-design.net/blog/archives/000131.html',
-    description => <<HTMLHEREDOC,
-投稿設定の「表示される記事数（投稿数ベース）」の設定値を取得するプラグインです。
-HTMLHEREDOC
+    description => "投稿設定の「表示される記事数（投稿数ベース）」の設定値を取得するプラグインです。"
 });
 MT->add_plugin( $plugin );
 sub init_registry {

@@ -33,7 +33,7 @@ sub _get_entries_on_index {
     my ($ctx, $args) = @_;
     my $blog_id = $ctx->stash('blog_id');
     my $blog = MT::Blog->load($blog_id);
-    return $blog->entries_on_index();
+    return $blog->entries_on_index;
 }
 
 1;

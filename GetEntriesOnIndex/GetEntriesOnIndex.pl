@@ -12,8 +12,8 @@ my $plugin = __PACKAGE__->new({
     name => $MYNAME,
     version => $VERSION,
     author_name => 'Hideki Abe',
-    author_link => 'http://www.skyward-design.net',
-    doc_link => 'http://www.skyward-design.net/blog/archives/000131.html',
+    author_link => 'https://www.anothersky.pw/',
+    doc_link => 'https://www.anothersky.pw/skyward/archives/000131.html',
     description => "投稿設定の「表示される記事数（投稿数ベース）」の設定値を取得するプラグインです。"
 });
 MT->add_plugin( $plugin );
